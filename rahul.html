@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>C Programming Notes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(20deg,rgb(242, 0, 255),rgb(63, 255, 245));
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #00bcd4;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .container {
+      display: flex;
+    }
+
+    nav {
+      width: 250px;
+      background-color: #1e1e1e;
+      height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.6);
+    }
+
+    nav h2 {
+      font-size: 1.2rem;
+      color: #00acc1;
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 10px 0;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00e5ff;
+      padding-left: 5px;
+    }
+
+    main {
+      flex: 1;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .topic-card {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.2s ease;
+    }
+
+    .topic-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .topic-card a {
+      text-decoration: none;
+      color: #03dac6;
+      font-size: 1.3rem;
+      font-weight: 500;
+      display: block;
+    }
+
+    .topic-card a:hover {
+      color: #00e5ff;
+    }
+  </style>
+</head>
+<body>
+  <header>C Programming Notes</header>
+  <div class="container">
+    <nav>
+      <h2>Topics</h2>
+      <ul>
+        <li><a href="">Introduction</a></li>
+        <li><a href="">Basic Syntax</a></li>
+        <li><a href="">Variables & Data Types</a></li>
+        <li><a href="">Loops</a></li>
+        <li><a href="">Functions</a></li>
+        <li><a href="">Arrays</a></li>
+        <li><a href="">Pointers</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="topic-card"><a href="inf.pdf">Introduction to C</a></div>
+      <div class="topic-card"><a href="vd.pdf">Variables & Data Types</a></div>
+      <div class="topic-card"><a href="lp.pdf">Loops in C</a></div>
+      <div class="topic-card"><a href="Fc.pdf">Functions</a></div>
+      <div class="topic-card"><a href="ar.pdf">Arrays</a></div>
+      <div class="topic-card"><a href="point.pdf">Pointers</a></div>
+    </main>
+  </div>
+</body>
+</html>
